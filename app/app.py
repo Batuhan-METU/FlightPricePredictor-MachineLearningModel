@@ -29,7 +29,7 @@ st.markdown(
     body { background: radial-gradient(circle at top left, #0f172a, #1e293b, #0f172a); color: white; font-family: 'Poppins', sans-serif; }
     .main { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border-radius: 20px; padding: 40px; box-shadow: 0 10px 50px rgba(0,0,0,0.4); animation: fadeIn 1s ease; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-    h1, h2, h3 { text-align: center; color: #f8fafc; font-weight: 600; }
+    h1, h2, h3 { text-align: center; color: #000000; font-weight: 600; }
     h1 span { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .stButton>button { background: linear-gradient(90deg, #2563eb, #7c3aed); color: white; border-radius: 10px; height: 3em; font-weight: 600; transition: 0.3s; width: 100%; border: none; }
     .stButton>button:hover { transform: scale(1.05); box-shadow: 0 0 25px rgba(147, 197, 253, 0.6); }
@@ -405,4 +405,10 @@ with colF:
 # FOOTER
 # ========================
 st.markdown("<hr>", unsafe_allow_html=True)
-st.caption("Made with ❤️ using Streamlit, scikit-learn, SHAP, and LIME")
+st.caption(
+    """
+    Made with ❤️ by <b>Batuhan Başoda</b> ·  
+    Built from a <b>Kaggle flight price dataset</b> → deployed as a production-ready <b>ML web app</b>.
+    """,
+    unsafe_allow_html=True,
+)
