@@ -190,8 +190,8 @@ def load_eval_data():
     y_path = MODEL_DIR / "eval_y.parquet"
     if not X_path.exists() or not y_path.exists():
         raise FileNotFoundError("Evaluation parquet files not found. Make sure eval_X_trans.parquet and eval_y.parquet exist inside models/.")
-    X = pd.read_parquet(X_path)
-    y = pd.read_parquet(y_path)
+    X = pd.read_parquet(X_path, engine = "auto")
+    y = pd.read_parquet(y_path, engine = "auto")
     return X, y
 
 try:
