@@ -1,0 +1,10 @@
+{
+    "r2": 0.9702929843058096,
+    "mae": 1809.3236637520474,
+    "mse": 15312539.061045345,
+    "best_params": {
+        "max_features": "log2",
+        "max_depth": 20,
+        "criterion": "squared_error"
+    }
+}
