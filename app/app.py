@@ -405,10 +405,23 @@ with colF:
 # FOOTER
 # ========================
 st.markdown("<hr>", unsafe_allow_html=True)
-st.caption(
-    """
-    Made with ❤️ by <b>Batuhan Başoda</b> ·  
-    Built from a <b>Kaggle flight price dataset</b> → deployed as a production-ready <b>ML web app</b>.
-    """,
-    unsafe_allow_html=True,
-)
+
+footer_html = """
+<div style='text-align: center; padding: 20px 0;'>
+    <p style='font-size: 22px; font-weight: bold; margin-bottom: 8px;'>
+        🚀 Made by <span style='color: #4F8BF9;'>Batuhan Başoda</span>
+    </p>
+    <p style='font-size: 16px; margin-bottom: 12px;'>
+        Built using the <b>Kaggle Flight Price Dataset</b> — developed into an <b>advanced end-to-end Machine Learning project</b>.<br>
+        The model leverages <b>feature engineering, hyperparameter tuning</b>, and <b>production-grade deployment</b> techniques to deliver real-time price predictions.
+    </p>
+    <p style='font-size: 15px;'>
+        🔗 Connect with me:<br>
+        <a href='https://www.linkedin.com/in/batuhanbasoda' target='_blank' style='text-decoration: none; color: #0077B5; font-weight: 600;'>LinkedIn</a> ·
+        <a href='https://www.kaggle.com/batuhanbasoda' target='_blank' style='text-decoration: none; color: #20BEFF; font-weight: 600;'>Kaggle</a> ·
+        <a href='https://github.com/batuhanbasoda' target='_blank' style='text-decoration: none; color: #333; font-weight: 600;'>GitHub</a>
+    </p>
+</div>
+"""
+
+st.markdown(footer_html, unsafe_allow_html=True)
