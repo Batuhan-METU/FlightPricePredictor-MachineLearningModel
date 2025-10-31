@@ -1,4 +1,4 @@
-# <h2 align = "center">✈️ Flight Price Prediction Web App</h2>  
+# <h1 align = "center">✈️ Flight Price Prediction Web App</h1>  
 
 [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
