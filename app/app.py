@@ -413,13 +413,13 @@ footer_html = """
     </p>
     <p style='font-size: 16px; margin-bottom: 12px;'>
         Built using the <b>Kaggle Flight Price Dataset</b> — developed into an <b>advanced end-to-end Machine Learning project</b>.<br>
-        The model leverages <b>feature engineering, hyperparameter tuning</b>, and <b>production-grade deployment</b> techniques to deliver real-time price predictions.
     </p>
+    <h2>ADVANCE MACHINE LEARNING PROJECT</h2>
     <p style='font-size: 15px;'>
         🔗 Connect with me:<br>
-        <a href='https://www.linkedin.com/in/batuhanbasoda' target='_blank' style='text-decoration: none; color: #0077B5; font-weight: 600;'>LinkedIn</a> ·
+        <a href='https://www.linkedin.com/in/batuhan-ba%C5%9Foda-b78799377/' target='_blank' style='text-decoration: none; color: #0077B5; font-weight: 600;'>LinkedIn</a> ·
         <a href='https://www.kaggle.com/batuhanbasoda' target='_blank' style='text-decoration: none; color: #20BEFF; font-weight: 600;'>Kaggle</a> ·
-        <a href='https://github.com/batuhanbasoda' target='_blank' style='text-decoration: none; color: #333; font-weight: 600;'>GitHub</a>
+        <a href='https://github.com/Batuhan-METU' target='_blank' style='text-decoration: none; color: #333; font-weight: 600;'>GitHub</a>
     </p>
 </div>
 """
