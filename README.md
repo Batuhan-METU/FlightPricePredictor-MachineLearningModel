@@ -1,4 +1,4 @@
-# ✈️ Flight Price Prediction Web App  
+# <h2 align = "center">✈️ Flight Price Prediction Web App</h2>  
 
 [![Streamlit](https://img.shields.io/badge/Framework-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -42,7 +42,11 @@ This project demonstrates the **complete ML lifecycle** — from **data preproce
 
 ---
 
+## 🖥️ App Preview
 
+<p align="center">
+  <img src="images/app_screenshot.png" width="700" alt="Flight Price Prediction App Screenshot">
+</p>
 
 🔗 **Live Demo:** [https://your-streamlit-app-link.streamlit.app](https://flightprice-5bbdyzcpalqtrsovwgtjvw.streamlit.app/)
 
