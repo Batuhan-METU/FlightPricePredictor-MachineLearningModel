@@ -45,7 +45,7 @@ This project demonstrates the **complete ML lifecycle** — from **data preproce
 ## 🖥️ App Preview
 
 <p align="center">
-  <img src="images/app_screenshot.png" width="700" alt="Flight Price Prediction App Screenshot">
+  <img src="images/app_preview.jpeg" width="700" alt="Flight Price Prediction App Screenshot">
 </p>
 
 🔗 **Live Demo:** [https://your-streamlit-app-link.streamlit.app](https://flightprice-5bbdyzcpalqtrsovwgtjvw.streamlit.app/)
